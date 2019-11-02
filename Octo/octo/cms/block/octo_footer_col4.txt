@@ -1,0 +1,11 @@
+<div class="footer_item">
+<div class="footer_capt">Customer Care</div>
+<ul>
+<li><a href="#">My Account</a></li>
+<li><a href="#">Order Tracking</a></li>
+<li><a href="#">Wish List</a></li>
+<li><a href="#">Returns/Exchange</a></li>
+<li><a href="#">Product Support</a></li>
+<li><a href="#">Customer Service</a></li>
+</ul>
+</div>

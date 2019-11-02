@@ -1,0 +1,66 @@
+<div class="slider_item">
+	<img src="{{media url=&quot;wysiwyg/slide1.jpg&quot;}}" alt="slide">
+	<div class="slider_text-cont cont">
+	<div class="slider_text">
+		<h1>
+			<span class="text-fantasy">
+			free emi cost
+			</span>
+			<br>
+			The Worlds strong laptop 
+			<br>
+			<span class="text-red">
+			only $350
+		</span>
+
+		</h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare placerat tellus sit amet ullamcorper. 
+		</p>
+		<div class="slider_actions">
+			<a href="#" class="slider_actions_btn bg-red">
+			Buy now
+		</a>
+			<a href="#" class="slider_actions_btn bg-black">
+				About More
+			</a>
+		</div>	
+
+	</div>
+</div>
+
+</div>
+<div class="slider_item">
+
+<img src="{{media url=&quot;wysiwyg/slide2.jpg&quot;}}" alt="item">
+	<div class="slider_text-cont cont">
+
+	<div class="slider_text">
+		<h1>
+			<span class="text-fantasy">
+			free emi cost
+			</span>
+			<br>
+			The Worlds strong laptop 
+			<br>
+			<span class="text-red">
+			only $350
+		</span>
+
+		</h1>
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ornare placerat tellus sit amet ullamcorper. 
+		</p>
+		<div class="slider_actions">
+			<a href="#" class="slider_actions_btn bg-red">
+			Buy now
+		</a>
+			<a href="#" class="slider_actions_btn bg-black">
+				About More
+			</a>
+		</div>	
+
+	</div>
+</div>
+
+</div>

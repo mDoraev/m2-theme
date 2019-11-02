@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+<!--         <remove src="css/styles.css" />
+        <remove src="media/styles.css" /> -->
+        <!-- стили.цсс удаляются в админке, в настройке темы - хеад. ттам же рядом и логотип -->
+
+        <remove src="css/styles-m.css" />
+        <remove src="css/styles-l.css" />
+        <css src="css/fonts.css" />
+        <css src="css/octo-m.css" />
+        <css src="css/octo-l.css" media="screen and (min-width: 768px)"/>
+        <css src="css/octo.css" media="all" />
+        <css src="css/octo-custom.css" media="all" />
+        <css src="css/octo-media.css" media="all" />
+
+    </head>
+</page>
+

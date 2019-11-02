@@ -1,0 +1,11 @@
+<div class="footer_item">
+<div class="footer_capt">Custom Block</div>
+<ul>
+<li><a href="#">Lorem Ipsum</a></li>
+<li><a href="#">Lorem Ipsum</a></li>
+<li><a href="#">Lorem Ipsum</a></li>
+<li><a href="#">Lorem Ipsum</a></li>
+<li><a href="#">Lorem Ipsum</a></li>
+<li><a href="#">Lorem Ipsum</a></li>
+</ul>
+</div>

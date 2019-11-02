@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+    <head>
+        <link src="js/home.js" />
+        <link src = "owl.carousel/owl.carousel.min.css" />
+    </head>
+
+    <body>
+        <!-- slider -->
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" name="octo_slider" template="Octo_Theme::octo_slider.phtml">
+                <block class="Magento\Cms\Block\Block" name="octo_slides">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">octo_slides</argument>
+                    </arguments>
+                </block>
+            </block>
+
+<!-- bonuses -->
+ <block class="Magento\Cms\Block\Block" name="octo_bonuses">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">octo_bonuses</argument>
+                    </arguments>
+                </block>
+<!-- homeware -->
+<block class="Magento\Framework\View\Element\Template" name="octo_home_products_cont" template="Octo_Theme::octo_home_products.phtml">
+                 <block class="Magento\Cms\Block\Block" name="octo_home_products">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">octo_home_products</argument>
+                    </arguments>
+                </block>
+            </block>
+<!-- blog -->
+<block class="Magento\Framework\View\Element\Template" name="octo_home_blog_cont" template="Octo_Theme::octo_home_blog.phtml">
+                 <block class="Magento\Cms\Block\Block" name="octo_home_blog">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">octo_home_blog</argument>
+                    </arguments>
+                </block>
+            </block>
+
+<!-- brands -->
+            <block class="Magento\Framework\View\Element\Template" name="octo_brands_slider" template="Octo_Theme::octo_brands_slider.phtml">
+                  <block class="Magento\Cms\Block\Block" name="octo_brands">
+                    <arguments>
+                        <argument name="block_id" xsi:type="string">octo_brands</argument>
+                    </arguments>
+                </block>
+</block>
+
+
+        </referenceContainer>
+    </body>
+</page>

@@ -1,0 +1,24 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+// @codingStandardsIgnoreFile
+
+?>
+ggggggggggggggggggggggggggggggggg
+<div class="footer-container">
+    <div class="footer aaaaaaaaaaaaaaaaa">
+        <?= $block->getChildHtml() ?>
+        <p class="bugs"><?= /* @escapeNotVerified */ __('Help Us Keep Magento Healthy') ?> - <a
+            href="http://www.magentocommerce.com/bug-tracking"
+            target="_blank"><strong><?= /* @escapeNotVerified */ __('Report All Bugs') ?></strong></a>
+        </p>
+        <address><?= /* @escapeNotVerified */ $block->getCopyright() ?>
+        	<div class="copyright_payment">
+        		<img src="<?php echo $block->getViewFileUrl('images/footer_payment.png'); ?>" alt="<?= /* @escapeNotVerified */ __('payment methods') ?>">
+        	</div>
+        </address>
+    </div>
+</div>

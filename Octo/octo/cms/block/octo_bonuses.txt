@@ -1,0 +1,44 @@
+<div class="bonuses">
+	<div class="bonuses_item">
+		<div class="bonuses_item_img">
+			<img src="{{view url='images/icon-shipping.png'}}" alt = "Free Shipping" title="Free Shipping" />
+		</div>
+		<div class="bonuses_item_text">
+			<h3>
+				Free Shipping & Return
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet contetur adipiscing elit Nulla matti
+			</p>
+		</div>
+
+	</div>
+		<div class="bonuses_item">
+		<div class="bonuses_item_img">
+				<img src="{{view url='images/icon-money.png'}}" alt = "100% Money Back" title="100% Money Back" />
+		</div>
+		<div class="bonuses_item_text">
+			<h3>
+				100% Money Back
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet contetur adipiscing elit Nulla matti
+			</p>
+		</div>
+
+	</div>
+		<div class="bonuses_item">
+		<div class="bonuses_item_img">
+			<img src="{{view url='images/icon-hours.png'}}" alt = "24 Hour Support" title="24 Hour Support" />
+		</div>
+		<div class="bonuses_item_text">
+			<h3>
+				24 Hour Support
+			</h3>
+			<p>
+				Lorem ipsum dolor sit amet contetur adipiscing elit Nulla matti
+			</p>
+		</div>
+
+	</div>
+</div>
